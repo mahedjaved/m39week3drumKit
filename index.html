@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Placing the style sheet file below -->
+    <link rel="stylesheet" href="./style.css">
+    <title>DrumKit Challenge</title>
+
+
+</head>
+
+<body>
+    <!-- Test Code to make sure everything is up and running -->
+    <!-- <h1>Testing HTML code here</h1> -->
+
+    <!-- Section for FONTS : I am using SOFIA for all my fonts in this project -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Main header message -->
+    <div class="helperMessage">Drumkit ! Press or Click to make any of the sounds below</div>
+
+    <!-- ___________________________________________________________________________________________ -->
+    <!-- All the Buttons Here, divieded into 3 rows -->
+    <div class="allButtons">
+
+        <!-- ROW 1 : Has the buttons for : Boom, Clap, HiHat -->
+        <div id="row1Buttons">
+
+            <!-- B1 - Boom -->
+            <button id="boomButt">boom
+                <p>w</p>
+            </button>
+
+            <!-- B2 - Clap -->
+            <button id="clapButt">clap
+                <p>a</p>
+            </button>
+
+            <!-- B3 - HiHat -->
+            <button id="hihatButt">hihat
+                <p>s</p>
+            </button>
+
+        </div>
+
+
+        <!-- ROW 2 : Has the buttons for : Kick, OpenHat, Ride -->
+        <div id="row2Buttons">
+
+            <!-- B4 - Kick -->
+            <button id="kickButt">kick
+                <p>d</p>
+            </button>
+
+            <!-- B5 - OpenHat -->
+            <button id="openHatButt">openHat
+                <p>q</p>
+            </button>
+
+            <!-- B6 - Ride -->
+            <button id="rideButt">ride
+                <p>e</p>
+            </button>
+
+
+        </div>
+
+
+        <!-- ROW 3 : Has the buttons for : Snare, Tink, Tom -->
+        <div id="row3Buttons">
+
+            <!-- B1 - Snare -->
+            <button id="snareButt">snare
+                <p>z</p>
+            </button>
+
+            <!-- B2 - Tink -->
+            <button id="tinkButt">tink
+                <p>x</p>
+            </button>
+
+            <!-- B3 - Tom -->
+            <button id="tomButt">tom
+                <p>c</p>
+            </button>
+
+
+        </div>
+
+    </div>
+
+    <!-- ___________________________________________________________________________________________ -->
+    <!-- All the SOUNDS go here -->
+    <div class="soundsSection">
+
+        <!-- S1 - Boom sound -->
+        <audio id="boomSound" src="./sounds/boom.wav" type="audio/wav"></audio>
+
+        <!-- S2 - Clap sound -->
+        <audio id="clapSound" src="./sounds/clap.wav" type="audio/wav"></audio>
+
+        <!-- S3 - HiHat sound -->
+        <audio id="hiHatSound" src="./sounds/hihat.wav" type="audio/wav"></audio>
+
+        <!-- S4 - Kick sound -->
+        <audio id="kickSound" src="./sounds/kick.wav" type="audio/wav"></audio>
+
+        <!-- S5 - OpenHat sound -->
+        <audio id="openHatSound" src="./sounds/openhat.wav" type="audio/wav"></audio>
+
+        <!-- S6 - Ride sound -->
+        <audio id="rideSound" src="./sounds/ride.wav" type="audio/wav"></audio>
+
+        <!-- S7 - Snare sound -->
+        <audio id="snareSound" src="./sounds/snare.wav" type="audio/wav"></audio>
+
+        <!-- S8 - Tink sound -->
+        <audio id="tinkSound" src="./sounds/tink.wav" type="audio/wav"></audio>
+
+        <!-- S9 - Tom sound -->
+        <audio id="tomSound" src="./sounds/tom.wav" type="audio/wav"></audio>
+
+    </div>
+    <!-- ___________________________________________________________________________________________ -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

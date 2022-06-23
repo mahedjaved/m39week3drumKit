@@ -1,0 +1,73 @@
+/** Testing CSS code for below only*/
+/* h1{
+    color: red;
+    font-size: 80px;
+} */
+
+/* Make all the <p> child of buttons "unclickable" so I dont get interference in listener events*/
+p{
+    pointer-events: none;
+}
+
+body{
+    background-image: url("https://i.gifer.com/RJ2.gif");
+    background-color: rgba(205, 255, 80, 0.557);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.helperMessage{
+    background-color: aliceblue;
+    top: 0cm;
+    left: 0cm;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 228, 228, 0.779);
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    border: 3px solid blue;
+    display: flex;
+}
+
+#row1Buttons{
+    background-color: red;
+    margin-top: 200px;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#row1Buttons button{
+    size: 20px;
+}
+
+#row2Buttons{
+    background-color: red;
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#row3Buttons{
+    background-color: red;
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
